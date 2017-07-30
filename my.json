@@ -1,0 +1,165 @@
+{
+  "basics": {
+    "name": "王奥丞",
+    "label": "全栈工程师",
+    "summary": "乐观向上, 易于相处, 能为团队着想. 自认为比较 Geek, 热爱编程, 学习能力强; 好奇心强, 喜欢思考. 平时喜欢折腾最新的技术和电子产品, 喜欢开源软件, 也曾经给一些知名项目提交过 Pull Request. 有大数据量 Web 后端开发和使用公有云进行开发的经验, 了解一般软件开发的流程, 对各种技术的底层实现也很感兴趣和了解.",
+    "website": "https://github.com/a1exwang",
+    "phone": "+086-131-2162-4094",
+    "email": "ice_b0und@hotmail.com",
+    "location": {
+      "postalCode": "100084",
+      "countryCode": "中国",
+      "region": "北京"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "a1exwang",
+        "url": "https://github.com/a1exwang"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "alex-wang",
+        "url": "https://stackoverflow.com/users/4715389/alex-wang"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Momenta",
+      "website": "https://momenta.ai",
+      "position": "开发实习生",
+      "startDate": "2016-12",
+      "summary": "负责开发维护基于 GitLab CI 的标注筛选系统; 开发基于 Django Web API 的标注系统; 维护标注结果数据库; 用 AWS 搭建自动运维框架; 以及开发组其他各种开发/运维/IT 任务",
+      "highlights": [
+        "Python/Django REST API/Flask",
+        "Redis",
+        "MySQL/MongoDB",
+        "AWS EC2/S3/ECS/RDB/ElastiCache/ELB/AutoScaling...",
+        "Docker"
+      ]
+    },
+    {
+      "company": "清华大学计算机系软件所",
+      "position": "操作系统系统组实习生",
+      "website": "http://os.cs.tsinghua.edu.cn",
+      "startDate": "2016-09",
+      "endDate": "2016-12",
+      "summary": "Wayland on Android, 修改 Wayland 窗口管理系统, 使其能跑在 Android 上, 可以实现 Android 上运行原生 Linux 图形程序, 例如 gnome-terminal, Firefox, Android Studio..",
+      "highlights": [
+        "Android Framework",
+        "Linux",
+        "Wayland"
+      ]
+    },
+    {
+      "company": "商汤科技",
+      "website": "https://www.sensetime.com",
+      "position": "系统开发实习生",
+      "startDate": "2016-07",
+      "summary": "开发维护模型管理系统, 对内部训练好的模型进行打包, 加密, 管理, 分发. 作为研发组和 SDK 开发之间的桥梁, 使内部模型更加安全, 有效的分发到 SDK 手中.",
+      "highlights": [
+        "Ruby on Rails",
+        "HTML/JavaScript"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "清华大学计算机系",
+      "startDate": "2014-09",
+      "endDate": "2018-07"
+    }
+  ],
+  "skills": [
+    {
+      "name": "后端开发",
+      "keywords": [
+        "Ruby on Rails/Sinatra",
+        "Django/Flask",
+        "Node.js",
+        "C++ 手写"
+      ]
+    },
+    {
+      "name": "前端开发",
+      "keywords": [
+        "JavaScript",
+        "CoffeeScript",
+        "Angular.js",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "数据库",
+      "keywords": [
+        "MySQL/SQLite",
+        "MongoDB",
+        "Redis",
+        "C++ 手写数据库"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "AWS EC2/S3/ECS/ELB/AutoScaling...",
+        "Docker",
+        "GitLab CI",
+        "Nginx"
+      ]
+    },
+    {
+      "name": "开发工具",
+      "keywords": [
+        "Linux",
+        "Git",
+        "Vim",
+        "Bash/Fish/Tmux"
+      ]
+    },
+    {
+      "name": "其他",
+      "keywords": [
+        "C/C++11",
+        "Java/Clojure/JVM",
+        "Qt",
+        "Android",
+        "Elixer/Erlang",
+        "C#/Mono",
+        "MIPS/x86 汇编"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "SL811HS USB 驱动移植",
+      "website": "https://github.com/a1exwang/neo-armcpu",
+      "summary": "在一个教学操作系统 ucore 上移植 SL811HS USB 控制器的驱动, 使其支持 USB 键盘, 并且跑在 FPGA 上实现的 MIPS CPU 上.",
+      "highlights": [
+        "深刻理解了 USB 协议的过程",
+        "提高了内核级调试的能力"
+      ]
+    },
+    {
+      "organization": "wtf-interp 一个函数式脚本语言解释器",
+      "website": "https://github.com/a1exwang/wtf-interp",
+      "summary": "用 Ruby 实现, 添加了很多在各种语言里看到的有意思的特性, 完成度较高. 考虑之后为了性能可以迁移到 JVM 或 LLVM 上.",
+      "highlights": [
+        "她是函数式语言, 函数是第一公民, 支持函数对象, 高阶函数, 不可变对象(受 Erlang/Elixir 启发)",
+        "她是脚本语言, 无需声明变量类型, 所以具有强大的运行时多态特性(受 Ruby/Python 启发)",
+        "支持元编程, 具有自省的能力, 可以甚至可以得到自身语法树, 便与实现 DSL(受 Ruby/LISP/Clojure 启发)",
+        "支持模式匹配, 极大简化了复杂数据结构的处理(受 Erlang/Elixir 启发)",
+        "支持 module, 实现了基本的标准库, 异常处理, 操作符重载, import/require, eval 等很多功能"
+      ]
+    },
+    {
+      "organization": "visual-crawler-generator 爬虫生成器",
+      "website": "https://github.com/a1exwang/visual-crawler-generator",
+      "summary": "总体目标: 用户无需了解底层实现, 可以通过点击的方式, 生成一个高性能的爬虫. 但是现在只实现了通过点击生成 CSS 选择器, 还没有接爬虫.",
+      "highlights": [
+        "根据用户点击的几个不同 DOM Element, 自动计算出能选中它们的最短的 CSS 选择器",
+        "用 Electron 打包成原生应用"
+      ]
+    }
+  ]
+}
